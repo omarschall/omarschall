@@ -9,14 +9,16 @@ I am curious about how brains learn. I mean this "how" in two very different sen
 1) Mechanistically, how do learning signals get physically computed and communicated to synapses under biological constraints?
  
  <img src="images/single_neuron_shrunk.png" width=400>
- 
+
+My first few projects focused on the plasticity rule update itself. In traditional machine learning, one simply computes a weight update according to gradient descent
+
 [Using local plasticity rules to train recurrent neural networks](https://arxiv.org/abs/1905.12100)  
 [A unified framework of online learning algorithms for training recurrent neural networks](https://jmlr.org/beta/papers/v21/19-562.html)  
 [Evaluating biological plausibility of learning algorithms the lazy way](https://openreview.net/pdf?id=HJgPEXtIUS)
 
 2) How do these synaptic changes affect the circuit function?
 
- <img src="images/single_neuron_shrunk.png" width=400>
+ <img src="images/rflo_ex_modified_abridged.png" width=400>
 
 ### My code
 My primary repository, vanilla-rtrl, contains NumPy-based modules for simluating vanilla recurrent neural networks doing a variety of simple tasks. The networks can be trained online using a variety of learning algorithms, optimizers, and continual learning methods. The repo also contains modules for analyzing the "journey" of an RNN's training process, allowing us to track a variety of evolving network properties over the course of learning. Details are in the README for the repo.
