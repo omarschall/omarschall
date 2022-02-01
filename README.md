@@ -17,14 +17,13 @@ I am curious about how brains learn. I mean this "how" in two very different sen
 ### My code
 My primary repository, vanilla-rtrl, contains NumPy-based modules for simluating vanilla recurrent neural networks doing a variety of simple tasks. The networks can be trained online using a variety of learning algorithms, optimizers, and continual learning methods. The repo also contains modules for analyzing the "journey" of an RNN's training process, allowing us to track a variety of evolving network properties over the course of learning. Details are in the README for the repo.
 
-While lacking the raw flexibility of auto-differentiation frameworks, it is quite simple and "hands-on" to use, as you can directly interact with the quantities of interest, whether parameters or network activity, without having to actively query from a latent graph as in tensorflow.
+While lacking the raw flexibility of auto-differentiation frameworks, it is quite simple and "hands-on" to use, as one can directly interact with the quantities of interest, whether parameters or network activity. The learning process itself is transparently spelled out in NumPy operations as well, allowing one to make arbitrary tweaks to learning algorithms for research purposes.
 
-I believe being intentional about one's workflow is crucial for efficient research and reproducibility. To this end, I have created a workflow for automatic importing of "protoype" simulations one runs in a Jupyter notebook to duplicating this simulation for arbtirarily complex arrays of configurations and sending the jobs to the NYU high-performance computers.
+I believe being intentional about one's workflow is crucial for efficient research and reproducibility. To this end, I have created a workflow for automatic translation between "protoype" simulations one runs in a Jupyter notebook to expensive array jobs one sends off to the NYU high-performance computers. The user can first interactively play with some cheap simulations for a given configuration, then with one command--and no risk of human error--instantly copy the same structure for up to 2000x parametric variations onto the HPC compute nodes, directly from the Jupyter notebook code.
 
 ### Interested in collaborating?
-I am a self-taught programmer, and . There are a few key ways my tools could be improved:
+I am a self-taught coder, and I'm always eager to get help and learn from more experienced programmers. There are a few key ways my tools could be improved:
 1) Making the code compatible with arbtirary RNN functions, not just vanilla RNNs and their time-continuous counterparts.
-2) Generalizing the workflow to arbtirary HPC systems--this is a bit beyond my pay grade.
-3) 
+2) Generalizing the workflow to arbtirary HPC systems. This is a bit beyond my pay grade, as so many of the particulars of the NYU HPC system are hard-coded in to the way I do it, and I have no idea how to generalize. That said, there are some principles to the workflow concept that clearly could be applied to any system.
 
 
