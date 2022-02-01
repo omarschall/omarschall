@@ -16,6 +16,8 @@ I am curious about how brains learn. I mean this "how" in two very different sen
 
 2) How do these synaptic changes affect the circuit function?
 
+ <img src="images/single_neuron_shrunk.png" width=400>
+
 ### My code
 My primary repository, vanilla-rtrl, contains NumPy-based modules for simluating vanilla recurrent neural networks doing a variety of simple tasks. The networks can be trained online using a variety of learning algorithms, optimizers, and continual learning methods. The repo also contains modules for analyzing the "journey" of an RNN's training process, allowing us to track a variety of evolving network properties over the course of learning. Details are in the README for the repo.
 
