@@ -10,7 +10,7 @@ I am curious about how brains learn. I mean this "how" in two very different sen
  
  <img src="images/single_neuron_shrunk.png" width=400>
 
-My first few projects focused on the plasticity rule update itself. In traditional machine learning, one simply computes a weight update according to gradient descent
+My first few projects focused on the plasticity rule update itself. In traditional machine learning, one simply computes a weight update according to some mathematical principle, typically gradient descent as computed by backpropagation. For modeling plasticity, one must carefully think about how these weight updates could be computed by biological "hardware" in parallel with the forward computation, such that the learning signals are physically available to the relevant synapses.
 
 [Using local plasticity rules to train recurrent neural networks](https://arxiv.org/abs/1905.12100)  
 [A unified framework of online learning algorithms for training recurrent neural networks](https://jmlr.org/beta/papers/v21/19-562.html)  
@@ -19,6 +19,8 @@ My first few projects focused on the plasticity rule update itself. In tradition
 2) How do these synaptic changes affect the circuit function?
 
  <img src="images/rflo_ex_modified_abridged.png" width=400>
+
+A randomly initialized recurrent neural network has relatively uninteresting dynamics, determined by the statistics of the initial weights. On the other hand, a fully trained network, for a sufficiently simple task, can often be "reverse-engineered" to understand how the intrinsic network dynamics facilitate the learned computation. What happens in between?
 
 ### My code
 My primary repository, vanilla-rtrl, contains NumPy-based modules for simluating vanilla recurrent neural networks doing a variety of simple tasks. The networks can be trained online using a variety of learning algorithms, optimizers, and continual learning methods. The repo also contains modules for analyzing the "journey" of an RNN's training process, allowing us to track a variety of evolving network properties over the course of learning. Details are in the README for the repo.
