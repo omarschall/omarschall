@@ -1,8 +1,7 @@
 ### About me
-My name is Owen Marschall (he/him), and I am a PhD student in neural science at New York University, working in Cristina Savin's lab. My focus is on top-down computational work, researching principles of network computation in ways that can be applied to understanding biological networks. In particular, I train recurrent neural networks to perform tasks by a variety of methods and analyze the evolution of the learned dynamics over training. I am interested in continuing this kind of work as a postdoc.
+My name is Owen Marschall (he/him), and I am a PhD student in neural science :brain: at New York University, working in Cristina Savin's lab. My focus is on top-down computational work, researching principles of network computation in ways that can be applied to understanding biological networks. In particular, I train recurrent neural networks to perform tasks by a variety of methods and analyze the evolution of the learned dynamics over training. I am interested in continuing this kind of work as a postdoc.
 
-A few real life things:  
-I am a competitive ultimate frisbee player :flying_disc:, I main Zac :green_circle:, and I love opera :musical_score: .
+I am a competitive ultimate frisbee player :flying_disc:, captaining the Brooklyn-based club team Blueprint.
 
 ### Research topics
 I am curious about how brains learn. I mean this "how" in two very different senses:
@@ -10,7 +9,7 @@ I am curious about how brains learn. I mean this "how" in two very different sen
 1) Mechanistically, how do learning signals get physically computed and communicated to synapses under biological constraints?
  
 [Using local plasticity rules to train recurrent neural networks](https://arxiv.org/abs/1905.12100)  
-[A unified framework of online learning algorithms for training recurrnet neural networks](https://jmlr.org/beta/papers/v21/19-562.html)  
+[A unified framework of online learning algorithms for training recurrent neural networks](https://jmlr.org/beta/papers/v21/19-562.html)  
 [Evaluating biological plausibility of learning algorithms the lazy way](https://openreview.net/pdf?id=HJgPEXtIUS)
 
 2) How do these synaptic changes affect the circuit function?
