@@ -1,7 +1,7 @@
 ### About me
 My name is Owen Marschall (he/him), and I am a PhD student in neural science :brain: at New York University, working in Cristina Savin's lab. My focus is on top-down computational work, researching principles of network computation in ways that can be applied to understanding biological networks. In particular, I train recurrent neural networks to perform tasks by a variety of methods and analyze the evolution of the learned dynamics over training. I am interested in continuing this kind of work as a postdoc.
 
-I am a competitive ultimate frisbee player :flying_disc:, captaining the Brooklyn-based club team Blueprint.
+Away from work, I am a competitive ultimate frisbee player :flying_disc:, captaining the Brooklyn-based club team Blueprint.
 
 ### Research topics
 I am curious about how brains learn. I mean this "how" in two very different senses:
