@@ -8,6 +8,8 @@ I am curious about how brains learn. I mean this "how" in two very different sen
 
 1) Mechanistically, how do learning signals get physically computed and communicated to synapses under biological constraints?
  
+![text](images/single_neuron.pdf)
+ 
 [Using local plasticity rules to train recurrent neural networks](https://arxiv.org/abs/1905.12100)  
 [A unified framework of online learning algorithms for training recurrent neural networks](https://jmlr.org/beta/papers/v21/19-562.html)  
 [Evaluating biological plausibility of learning algorithms the lazy way](https://openreview.net/pdf?id=HJgPEXtIUS)
