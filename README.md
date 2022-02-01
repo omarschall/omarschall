@@ -1,9 +1,8 @@
 ### About me
 My name is Owen Marschall (he/him), and I am a PhD student in neural science at New York University, working in Cristina Savin's lab. My focus is on top-down computational work, researching principles of network computation in ways that can be applied to understanding biological networks. In particular, I train recurrent neural networks to perform tasks by a variety of methods and analyze the evolution of the learned dynamics over training. I am interested in continuing this kind of work as a postdoc.
 
-A few real life things:
-🥏 I am a competitive ultimate frisbee player, currently captaining the Brooklyn-based club team Blueprint.
-🟢 I main Zac (IYKYK)
+A few real life things:  
+I am a competitive ultimate frisbee player :flying_disc:, I main Zac :green_circle:, and I love opera :musical_score: .
 
 ### Research topics
 I am curious about how brains learn. I mean this "how" in two very different senses:
@@ -17,9 +16,9 @@ I am curious about how brains learn. I mean this "how" in two very different sen
 2) How do these synaptic changes affect the circuit function?
 
 ### My code
-My primary repository, vanilla-rtrl, contains NumPy-based modules for simluating vanilla recurrent neural networks doing a variety of simple tasks. While lacking the raw flexibility of auto-differentiation frameworks, it is quite simple and "hands-on" to use. 
+My primary repository, vanilla-rtrl, contains NumPy-based modules for simluating vanilla recurrent neural networks doing a variety of simple tasks. The networks can be trained online using a variety of learning algorithms, optimizers, and continual learning methods. The repo also contains modules for analyzing the "journey" of an RNN's training process, allowing us to track a variety of evolving network properties over the course of learning. Details are in the README for the repo.
 
-The networks can be trained online using a variety of learning algorithms, optimizers, and continual learning methods. The repo also contains modules for analyzing the "journey" of an RNN's training process, allowing us to track a variety of evolving network properties over the course of learning. Details are in the README for the repo.
+While lacking the raw flexibility of auto-differentiation frameworks, it is quite simple and "hands-on" to use, as you can directly interact with the quantities of interest, whether parameters or network activity, without having to actively query from a latent graph as in tensorflow.
 
 I believe being intentional about one's workflow is crucial for efficient research and reproducibility. To this end, I have created a workflow for automatic importing of "protoype" simulations one runs in a Jupyter notebook to duplicating this simulation for arbtirarily complex arrays of configurations and sending the jobs to the NYU high-performance computers.
 
