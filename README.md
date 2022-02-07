@@ -20,7 +20,7 @@ My first few projects focused on the plasticity rule update itself. In tradition
 
  <img src="images/rflo_ex_modified_abridged.png" width=400>
 
-A randomly initialized recurrent neural network has relatively uninteresting dynamics, determined by the statistics of the initial weights. On the other hand, a fully trained network, for a sufficiently simple task, can often be "reverse-engineered" to understand how the intrinsic network dynamics facilitate the learned computation. What happens in between?
+A randomly initialized recurrent neural network has relatively uninteresting dynamics, determined by the statistics of the initial weights. On the other hand, a fully trained network, for a sufficiently simple task, can often be "reverse-engineered" to understand how the intrinsic network dynamics facilitate the learned computation. What happens in between? Are there discernable patterns to the "meta-dynamics" over training? Do these patterns vary across learning approaches? (Short answers: yes and yes!)
 
 ### My code
 My primary repository, vanilla-rtrl, contains NumPy-based modules for simluating vanilla recurrent neural networks doing a variety of simple tasks. The networks can be trained online using a variety of learning algorithms, optimizers, and continual learning methods. The repo also contains modules for analyzing the "journey" of an RNN's training process, allowing us to track a variety of evolving network properties over the course of learning. Details are in the README for the repo.
